@@ -57,6 +57,36 @@ npm run build
 
 The built files will be in the `dist` directory.
 
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+This will start a local server to preview the production build.
+
+## 🚀 Deployment
+
+This project is set up for automatic deployment to GitHub Pages using GitHub Actions.
+
+### GitHub Pages Setup
+
+1. **Enable GitHub Pages**: Go to your repository settings → Pages → Source → "GitHub Actions"
+
+2. **Automatic Deployment**: The app will automatically deploy when you push to the `main` branch
+
+3. **Manual Deployment**: You can also trigger deployment manually from the Actions tab
+
+4. **Live URL**: Your app will be available at: `https://apih99.github.io/shouldi/`
+
+### Deployment Process
+
+The GitHub Actions workflow will:
+- ✅ Install dependencies
+- ✅ Build the React app
+- ✅ Deploy to GitHub Pages
+- ✅ Make your Decision Oracle live for the world!
+
 ## 🎨 Technologies Used
 
 - **React 18** - Modern React with hooks
